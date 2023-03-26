@@ -1,0 +1,84 @@
+
+nav{
+    
+    background: blanchedalmond;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+.nav-center{
+    margin-top: 0 auto;
+    width:90vw;
+    max-width:var(--fixed-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-center h3{
+    margin:0 0 0 5px;
+    color:hsl(205, 78%, 60%);
+}
+.nav-links{
+    display: flex;
+  
+}
+ul{
+    list-style-type:none;
+
+}
+li{
+    display: list-item;
+    text-align:-webkit-match-parent ;
+}
+nav a{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size:1rem;
+    text-decoration: none;
+    letter-spacing:0.15rem ;
+    margin-right:1rem;
+    color: rgb(71, 88, 105);
+}
+main{
+    min-height:calc(100vh-3rem);
+    display: grid;
+    place-items:center;
+}
+.container{
+    text-align: center;
+    margin-top: 100px
+}
+div{
+    display:block;
+}
+.container h2{
+    background: rgb(25, 25, 25);
+    color: white;
+    padding: 1rem;border-radius: 5px;
+    margin-bottom:2.5rem;
+    font-size: 2.5rem;
+
+}
+.colors{
+    color:rgb(64, 132, 195)
+}
+.btn-hero{
+    font-size:1rem;
+    padding:0.75rem 1.25rem;
+}
+.btn{
+    font-family:"Robot", sans-serif;
+    text-transform:uppercase;
+    background: transparent;
+    border-radius: 8px;
+    color: black;
+    display: inline-block;
+    cursor:pointer;
+    box-shadow:0 1px 3px rgb(0 0 0 / 20%);
+
+}
+.btn:hover{
+    background-color: grey;
+}
